@@ -4,6 +4,7 @@ import com.bennyhuo.kotlin.coroutine.ch01.delayExecutor
 import java.util.concurrent.TimeUnit
 import kotlin.coroutines.*
 
+// 定义带Receiver的lambda语法
 fun <R, T> launchCoroutine(receiver: R, block: suspend R.() -> T) {
     block.startCoroutine(receiver, object : Continuation<T> {
         override fun resumeWith(result: Result<T>) {
@@ -46,7 +47,7 @@ fun callLaunchCoroutineRestricted(){
     launchCoroutine(RestrictProducerScope<Int>()) {
         println("In Coroutine.")
         produce(1024)
-        // delay(1000)
+//         delay(1000)
         produce(2048)
     }
 }
