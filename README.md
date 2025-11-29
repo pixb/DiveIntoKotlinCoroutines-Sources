@@ -34,3 +34,6 @@
 * [3-6 runSuspend函数的定义](./DiveIntoKotlinCoroutines-Sources/Kotlin/src/main/kotlin/com/bennyhuo/kotlin/coroutine/ch03/Listing06_RunSuspend.kt)
 * [3-7 挂起函数的定义](./DiveIntoKotlinCoroutines-Sources/Kotlin/src/main/kotlin/com/bennyhuo/kotlin/coroutine/ch03/Listing07.kt)
 * [3-8 不会挂起的挂起函数](./DiveIntoKotlinCoroutines-Sources/Kotlin/src/main/kotlin/com/bennyhuo/kotlin/coroutine/ch03/Listing08.kt)
+* [3-9 用Java代码调用挂起函数](./DiveIntoKotlinCoroutines-Sources/Kotlin/src/main/kotlin/com/bennyhuo/kotlin/coroutine/ch03/Listing09.java)
+* [3-10 使用Kotlin反射调用挂起函数](./DiveIntoKotlinCoroutines-Sources/Kotlin/src/main/kotlin/com/bennyhuo/kotlin/coroutine/ch03/Listing10.kt)
+* [3-11_18](./kotlin/DiveIntoKotlinCoroutines-Sources/Kotlin/src/main/kotlin/com/bennyhuo/kotlin/coroutine/ch03/Listing11_18.kt)
